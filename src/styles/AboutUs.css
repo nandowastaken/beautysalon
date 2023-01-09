@@ -1,0 +1,41 @@
+.AboutUs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-us-img {
+    width: 617px;
+    height: 446px;
+    
+    position: relative;
+    right: 23px;
+}
+
+.about-us-info {
+    
+    margin-right: auto;
+}
+
+.about-us-info-title {
+    color: #0F241D;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+
+}
+
+.about-us-info-desc {
+    font-family: "Dm Sans", sans-serif;
+    color: #767676;
+    font-size: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 610px;
+    height: 312px;
+    margin-top: 10px;
+}

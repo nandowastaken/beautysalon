@@ -1,13 +1,13 @@
 import './App.css'
-import Navbar from "./components/Navbar"
-import MainContent from './components/MainContent'
+import LandingPage from './pages/LandingPage'
+import AboutUs from './pages/AboutUs'
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      <MainContent/>
+      <LandingPage/>
+      <AboutUs/>
     </div>
   )
 }
