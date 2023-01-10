@@ -15,7 +15,7 @@ export default function Services() {
 
       <div className="services-list">
         <div className="service">
-          <img src="../src/assets/icon-1.svg" alt="" className="icon-1" />
+          <img src="../src/assets/icons/icon-1.svg" alt="" className="icon-1" />
           <h2 className="service-title">Terapia capilar</h2>
           <p className="service-desc">
             Terapia completa para couro cabeludo e fios, protegendo todos os
@@ -24,7 +24,7 @@ export default function Services() {
         </div>
 
         <div className="service">
-          <img src="../src/assets/icon-2.svg" alt="" className="icon-2" />
+          <img src="../src/assets/icons/icon-2.svg" alt="" className="icon-2" />
           <h2 className="service-title">Cortes</h2>
           <p className="service-desc">
             A nossa equipe é repleta de profissionais renomados, famosos por
@@ -33,7 +33,7 @@ export default function Services() {
         </div>
 
         <div className="service">
-          <img src="../src/assets/icon-3.svg" alt="" className="icon-3" />
+          <img src="../src/assets/icons/icon-3.svg" alt="" className="icon-3" />
           <h2 className="service-title">Tratamentos</h2>
           <p className="service-desc">
             O beautysalon conta com diversos tratamentos naturais e totalmente

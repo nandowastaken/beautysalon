@@ -14,24 +14,24 @@ export default function Contact() {
         </p>
 
         <button className="contact-main-info-button">
-          <img src="../src/assets/whatsapp-icon.svg" alt="" />
+          <img src="../src/assets/icons/whatsapp-icon.svg" alt="" />
           Entrar em contato
         </button>
       </div>
 
       <div className="contact-side-infos">
         <div className="contact-side-info">
-          <img src="../src/assets/phone-icon.svg" alt="" />
+          <img src="../src/assets/icons/phone-icon.svg" alt="" />
           <p className="contact-side-info-text">11 99845-6754</p>
         </div>
 
         <div className="contact-side-info">
-          <img src="../src/assets/location-icon.svg" alt="" />
+          <img src="../src/assets/icons/location-icon.svg" alt="" />
           <p className="contact-side-info-text">R. Amauri Souza, 346</p>
         </div>
 
         <div className="contact-side-info">
-          <img src="../src/assets/email-icon.svg" alt="" />
+          <img src="../src/assets/icons/email-icon.svg" alt="" />
           <p className="contact-side-info-text">contato@beautysalon.com</p>
         </div>
       </div>

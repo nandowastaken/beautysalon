@@ -10,7 +10,7 @@ export default function Avaliations() {
       <div className="avaliations">
         <div className="avaliation">
           <p className="avaliation-content">
-            <img src="../src/assets/aspas.svg" alt="" className="aspas" />
+            <img src="../src/assets/icons/aspas.svg" alt="" className="aspas" />
             Eu sou cliente do Beautysalon há 5 anos e não troco por nada!
             Certamente meu cabelo mudou muito depois que comecei a tratar
             somente com produtos naturais e veganos. São profissionais incríveis
@@ -18,14 +18,18 @@ export default function Avaliations() {
           </p>
 
           <div className="avaliator">
-            <img src="../src/assets/wanessa.svg" alt="" className="profile" />
+            <img
+              src="../src/assets/imgs/wanessa.svg"
+              alt=""
+              className="profile"
+            />
             <p className="avaliator-name">Wanessa Souza</p>
           </div>
         </div>
 
         <div className="avaliation">
           <p className="avaliation-content">
-            <img src="../src/assets/aspas.svg" alt="" className="aspas" />
+            <img src="../src/assets/icons/aspas.svg" alt="" className="aspas" />
             Minha mãe frequenta o salão há anos e me levou um dia para conhecer.
             Minha experiência foi incrível, eu continuo fazendo o a terapia
             capilar e isso salvou o meu cabelo. Adoro todos os profissionais do
@@ -33,7 +37,7 @@ export default function Avaliations() {
           </p>
 
           <div className="avaliator">
-            <img src="../src/assets/luna.svg" alt="" className="profile" />
+            <img src="../src/assets/imgs/luna.svg" alt="" className="profile" />
             <p className="avaliator-name">Luna Falcão</p>
           </div>
         </div>
