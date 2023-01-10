@@ -1,0 +1,85 @@
+.Avaliations {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avaliations-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    width: 481px;
+    text-align: center;
+    color: #0F241D;
+}
+
+.avaliations {
+    display: flex;
+    margin-top: 25px;
+    gap: 45px;
+}
+
+.avaliation {
+    width: 544px;
+    height: 264px;
+    box-shadow: 1px 2px 2px 1px rgb(0, 0, 0, 0.0518);
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aspas {
+    margin: 4px;
+}
+
+.avaliation-content, .avaliator {
+    margin: 0px 30px;
+}
+
+.avaliation-content {
+    font-family: "Dm Sans", sans-serif;
+    color: #0F241D;
+}
+
+.avaliator {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.avaliator-name {
+    font-family: "Dm Sans", sans-serif;
+    color: #767676;
+    font-size: 16px;
+}
+
+.points {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.point {
+    width: 12px;
+    height: 12px;
+    background-color: #E4E4E4;
+    border-radius: 50%;
+}
+
+.point:hover {
+    cursor: pointer;
+}
+
+.point-1 {
+    background-color: #69B99D;
+}
+
