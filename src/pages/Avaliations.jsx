@@ -8,7 +8,7 @@ export default function Avaliations() {
       </h1>
 
       <div className="avaliations">
-        <div className="avaliation">
+        <div className="avaliation avaliation-1">
           <p className="avaliation-content">
             <img src="../src/assets/icons/aspas.svg" alt="" className="aspas" />
             Eu sou cliente do Beautysalon há 5 anos e não troco por nada!
@@ -27,7 +27,7 @@ export default function Avaliations() {
           </div>
         </div>
 
-        <div className="avaliation">
+        <div className="avaliation avaliation-2">
           <p className="avaliation-content">
             <img src="../src/assets/icons/aspas.svg" alt="" className="aspas" />
             Minha mãe frequenta o salão há anos e me levou um dia para conhecer.

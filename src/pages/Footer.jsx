@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <div className="Footer">
       <div className="copyright">
-        <img src="../src/assets/icons/logo-copyright.svg" alt="" />
+        <img
+          src="../src/assets/icons/logo-copyright.svg"
+          alt=""
+          className="copyright-logo"
+        />
         <small className="copyright-info">©2021 Beautysalon.</small>
         <p className="copyright-info">Todos os direitos reservados.</p>
       </div>

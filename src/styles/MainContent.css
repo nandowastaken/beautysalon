@@ -40,3 +40,36 @@
 .home-img {
     width: 658px;
 }
+
+@media only screen and (max-width: 375px) {
+    .MainContent {
+        flex-direction: column-reverse;
+    }
+
+    .scheduling {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .schedule-title {
+        text-align: center;
+        font-size: 30px;
+        width: 327px;
+    }
+
+    .schedule-description {
+        text-align: center;
+        font-size: 16px;
+        width: 298px;
+    }
+
+    .schedule-button {
+        margin-top: 20px;
+        height: 56px;
+        width: 214px;
+    }
+
+    .home-img {
+        width: 100%;
+    }
+}

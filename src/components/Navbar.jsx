@@ -14,6 +14,12 @@ export default function Navbar() {
           <a href="">Depoimentos</a>
           <a href="">Contato</a>
         </div>
+
+        <div className="hamburger">
+          <div className="hamburger-stroke"></div>
+          <div className="hamburger-stroke"></div>
+          <div className="hamburger-stroke"></div>
+        </div>
       </div>
 
       <div className="bottom-line"></div>

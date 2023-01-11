@@ -15,7 +15,6 @@
 }
 
 .about-us-info {
-    
     margin-right: auto;
 }
 
@@ -38,4 +37,30 @@
     width: 610px;
     height: 312px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+    .AboutUs {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1131px;
+        gap: 30px;
+        margin: 0;
+    }
+
+    .about-us-img {
+
+    }
+
+    .about-us-info {
+        width: 90%;
+        margin: 0;
+    }
+
+    .about-us-info-desc {
+        width: 100%;
+    }
+
+
 }

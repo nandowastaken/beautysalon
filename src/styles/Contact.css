@@ -67,3 +67,38 @@
     font-size: 18px;
     color: #767676;
 }
+
+@media only screen and (max-width: 375px) {
+    .Contact {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        height: 632px;
+    }
+
+    .contact-main-info {
+        width: 80%;
+        gap: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .contact-main-info-title {
+        font-size: 30px;
+    }
+
+    .contact-main-info-desc {
+        width: 100%;
+    }
+
+    .contact-main-info-button {
+        height: 56px;
+    }
+
+    .contact-side-infos {
+        width: 80%;
+        margin: 0;
+        margin-left: 20px;
+
+    }
+}

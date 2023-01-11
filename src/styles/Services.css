@@ -71,3 +71,28 @@
     width: 256px;
 
 }
+
+@media only screen and (max-width: 375px) {
+    .Services {
+        height: 1553px;
+    }
+
+    .services-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+    }
+
+    .services-info-desc {
+        text-align: start;
+        width: 100%;
+    }
+
+    .services-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
